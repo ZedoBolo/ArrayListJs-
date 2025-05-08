@@ -88,18 +88,17 @@ const numeros = [1, 2, 3, 4];
 const soma = numeros.reduce((acc, n) => acc + n, 0);
 console.log(soma); // 10
 
+---------------------------------------------
+
 const carrinho = [
   { produto: "Camisa", preco: 50 },
   { produto: "Calça", preco: 80 },
   { produto: "Tênis", preco: 120 }
 ];
 
----------------------------------------------
-
 const total = carrinho.reduce((acc, item) => acc + item.preco, 0);
 console.log(total); // 250
 
-const numeros = [1, 2, 3, 4, 5, 6];
 
 ---------------------------------------------
 
